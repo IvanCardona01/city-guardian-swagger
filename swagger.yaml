@@ -865,7 +865,7 @@ components:
           example: "Pérez"
         phone:
           type: string
-          example: "+1 555-1234"
+          example: "3225733653"
         city:
           type: string
           example: "Armenia"
