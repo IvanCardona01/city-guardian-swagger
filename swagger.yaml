@@ -5,7 +5,7 @@ info:
   description: Documentación de la API para el sistema
 
 servers:
-  - url: http://localhost:8303/api/v1/
+  - url: http://localhost:8080/api/
     description: Servidor local de desarrollo
 
 security:
