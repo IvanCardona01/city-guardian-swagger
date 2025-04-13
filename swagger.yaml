@@ -857,23 +857,26 @@ components:
         - email
         - password
       properties:
-        nombre:
+        name:
           type: string
           example: "Juan"
-        apellido:
+        lastName:
           type: string
           example: "Pérez"
-        telefono:
+        phone:
           type: string
           example: "+1 555-1234"
-        direccion:
+        city:
+          type: string
+          example: "Armenia"
+        address:
           type: string
           example: "Calle Falsa 123, Ciudad, País"
-        correo:
+        email:
           type: string
           format: email
           example: "juan.perez@example.com"
-        contraseña:
+        password:
           type: string
           example: "secreto123"
 
