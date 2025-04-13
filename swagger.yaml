@@ -849,12 +849,13 @@ components:
     NuevoCliente:
       type: object
       required:
-        - nombre
-        - apellido
-        - telefono
-        - direccion
-        - correo
-        - contraseña
+        - name
+        - lastName
+        - phone
+        - city
+        - address
+        - email
+        - password
       properties:
         nombre:
           type: string
