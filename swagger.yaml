@@ -993,13 +993,13 @@ components:
     CredencialesLogin:
       type: object
       required:
-        - usuario
-        - contraseña
+        - email
+        - password
       properties:
-        usuario:
+        email:
           type: string
           example: "juanperez"
-        contraseña:
+        password:
           type: string
           example: "secreto123"
 
