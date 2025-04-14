@@ -998,7 +998,7 @@ components:
       properties:
         email:
           type: string
-          example: "juanperez"
+          example: "juan.perez@example.com"
         password:
           type: string
           example: "secreto123"
