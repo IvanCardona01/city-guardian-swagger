@@ -639,24 +639,24 @@ paths:
             schema:
               type: object
               properties:
-                fecha_inicio:
+                initialDate:
                   type: string
                   format: date
-                  example: "2024-01-01"
+                  example: "2025-04-13"
                   description: Fecha de inicio del filtro (YYYY-MM-DD)
-                fecha_fin:
+                finalDate:
                   type: string
                   format: date
-                  example: "2024-01-31"
+                  example: "2025-04-16"
                   description: Fecha de fin del filtro (YYYY-MM-DD)
-                estado:
+                status:
                   type: string
-                  enum: [Creado, Verificado, Rechazado, Resuelto]
-                  example: "Verificado"
+                  enum: [CREATED, VERIFIED, REJECTED, SOLVED]
+                  example: "CREATED"
                   description: Estado del reporte
-                categoria:
+                category:
                   type: string
-                  example: "Incidente"
+                  example: "ACCIDENT"
                   description: Categoría del reporte
       responses:
         "200":
